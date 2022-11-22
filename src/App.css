@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  /* border: 3px solid purple !important; */
+  font-family: "Inter", sans-serif;
+}
+.App-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+  text-align: center;
+}
+
+.App-main h2 {
+  font-weight: 700;
+}
+
+.App-main h4 {
+  font-weight: 500;
+  margin: .5em 0 1.5em 0;
+  line-height: 1.4;
+}
+
+.together {
+  display: flex;
+}
+
+.app-input {
+  height: 60px;
+  width: 40em;
+  padding: .85em;
+  border-top-left-radius: .4em;
+  border-bottom-left-radius: .4em;
+  resize: none; 
+  overflow: hidden;
+  border: 3px solid #262626;
+  border-right: none;
+}
+
+.cta-btn {
+  padding: 1.2em;
+  /* width: 50%; */
+  font-weight: 700;
+  border: 3px solid #262626;
+  outline: none;
+  background: #262626;
+  color: #fff;
+  border-top-right-radius: .35em;
+  border-bottom-right-radius: .35em;
+  cursor: pointer;
+}
+
+.result-image {
+  margin-top: 3em;
+}
